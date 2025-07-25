@@ -18,6 +18,6 @@ def calcular_idade():
     #Cálculo da idade levando em conta os dias do ano
     idade_dias = idade_anos * 365
 
-    print(f'Sua idade em dias é aproximadamente: {idade_dias} dias.')
+    print(f'Sua idade em dias é aproximadamente: {idade_dias} dias.') #Ignorando anos bissextos, por isso, "aproximadamente"
 
 calcular_idade()
